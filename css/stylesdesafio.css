@@ -1,0 +1,27 @@
+#box-model {
+    margin: 10px;
+    padding: 10px 10px;
+    border: 3px solid;
+    outline: 3px solid blueviolet;
+    border-radius: 30px;
+    width: 600px;
+    height: 200px;
+    border-color: blue brown black gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-texto {
+    color:rgb(0, 179, 255);
+    font-size: 30px;
+}
+#container {
+width: 100vw;
+height: 100vh;
+background: #fbfbfb;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}

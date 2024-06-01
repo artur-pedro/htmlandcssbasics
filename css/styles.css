@@ -1,0 +1,289 @@
+.height-width {
+
+    height:200px;
+    width: 100px;
+    background-color: red;
+
+}
+.height-width2 {
+    height: 300px;
+    background-color: #333;
+}
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #fff;
+}
+.padding {
+    padding: 20px
+}
+.padding-individual {
+    background-color: #ff0000;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.shorthand-padding {
+
+    background-color: #444;
+    padding: 6px 12px 18px 24px;  /* top, right, bottom, left */
+}
+.shorthand-padding-2 {
+
+    background-color: #555;
+    padding: 10px 20px;  /* top, right, bottom, left */
+    /*padding: 10px 20px 10px 20px; top, right, bottom, left */
+}
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+
+}
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding:25px
+}
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding:20px
+}
+
+/* borda arredondada */
+.borda-arredondada {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.borda-arredondada2 {
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* Margem */
+
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margin-top {
+
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px
+}
+
+.margin-shorthand {
+    background-color: #666;
+    margin: 5px 10px 15px 20px
+}
+.box-model {
+
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+
+}
+.text-aligned {
+    text-align: center;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration: none;
+    color: red
+}
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    border: 5px solid red;
+    text-align: center;
+    
+}
+.serif {
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.sans-serif {
+    font-family: Helverica;
+}
+.monospace {
+    font-family:"Courier-New";
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+.italico {
+    font-style: italic;
+}
+.obliquo {
+    font-style: oblique;
+}
+.thin,
+.bold,
+.bolder {
+    font-family:Helvetica;
+}
+.thin {
+    font-weight: 100;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 900;
+}
+.small {
+    font-size: 4px;
+}
+.big {
+    font-size: 100px;
+}
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block {
+    display:block;
+    background-color: black;
+}
+.invisible {
+    display:none;
+}
+.static {
+    position: static;
+    background-color: #931;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+.relative {
+    position: relative;
+    background-color: rgb(110, 22, 211);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+.absolute {
+    position: absolute;
+    background-color: rgb(110, 22, 211);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px
+}
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #442;
+    position: absolute;
+
+}
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+
+}
+.fixed {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    background-color: #851;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+.stick {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    background-color: #851;
+    position: sticky;
+    top:10px;
+
+}
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+
+}
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index:3;
+}
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index:2;
+}
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index:1;
+}
+
