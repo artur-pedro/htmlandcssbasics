@@ -1,0 +1,89 @@
+#exclusive-title {
+
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size:40px;
+}
+
+h2 {
+    border-bottom: 2px solid red;
+}
+#algum-titulo{
+    border-bottom: 3px solid green;
+
+}
+.titulo {
+    border-bottom: 3px solid blue;
+
+}
+.color-name {
+    font-size: 45px;
+    color: rgb(49, 95, 118);
+}
+.hex {
+    font-size: 100px; 
+    color: #55a398;
+}
+.hex2 {
+    font-size: 100px; 
+    color: #55a398;
+}
+.simple {
+    color: #333;
+    font-size: 100px;
+
+}
+.simple-2 {
+    color: #a5f;
+    font-size: 100px;
+
+}
+.rgb {
+    color:rgb(100,255,21);
+    font-size: 100px;
+
+}
+.rgba {
+    color: rgba(100,255,21, 0.5);
+    font-size: 100px;
+}
+.hsl {
+    color: hsl(100, 20%, 50%);
+    font-size: 100px;
+
+}
+.hsl2 {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(201, 44%, 69%);
+    font-size: 100px;
+}
+.background-opacity {
+    font-size: 100px;
+    color: red;
+    background-color: green;
+    opacity: 0.8;
+}
+.opacidade-corrigida {
+    font-size: 100px;
+    background-color: rgba(90,120,20, 0.2);
+    color: black;
+}
+.bg-image {
+        font-size: 100px;
+        color: rgb(251, 255, 0);
+        background-image: url(../image/face.jpg);
+        background-color: rgba(90,120,20, 0.2);
+        padding: 10px;
+}
+.not-centered,
+.centered {
+    height: 400px;
+    width: 400px;
+    background-image: url("../image/face.jpg")
+
+}
+.centered {
+    background-position: center;
+    background-size: cover;
+}
