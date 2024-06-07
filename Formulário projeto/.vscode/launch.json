@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/minha/OneDrive/Desktop/Dev/HTML",
-      "program": "c:/Users/minha/OneDrive/Desktop/Dev/HTML/build/Debug/outDebug",
+      "cwd": "c:/Users/minha/OneDrive/Desktop/Dev/Estudos HTML E CSS/Formulário projeto",
+      "program": "c:/Users/minha/OneDrive/Desktop/Dev/Estudos HTML E CSS/Formulário projeto/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

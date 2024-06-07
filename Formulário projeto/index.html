@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o upload da sua música</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3> Formulário drum and bass </h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Drum and bass uploader</p>
+            </div>
+            <div class="form-body">
+                <p class="form-title">Drum and bass uploader</p>
+                <p>Preencha os campos</p>
+             <form>
+                <div class="box-input">
+                    <label for="title"
+                    >Título da música <span class="required-field">*</span></label>
+                    <input 
+                    type="text" 
+                    name="title" 
+                    id="title" 
+                    class="block" 
+                    placeholder="Digite o nome da música"
+                    minlength="1"
+                    maxlength="15"
+                    required
+                    >
+                </div>
+                <div class="box-input">
+                    <label class="lyrics" for="lyrics">Lyrics </label>
+                    <textarea name="lyrics" id="lyrics" class="block" placeholder="Aqui você coloca as lyrics da música, se tiver." rows="20" cols="20" minlength="10" maxlength="1000"></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="artists"
+                    >Autores <span class="required-field">*</span></label
+                    >
+                    <input 
+                    type="text" 
+                    name="artists" 
+                    id="artists" 
+                    class="block" 
+                    placeholder="Digite o nome do(s) artista(s)"
+                    minlength="1"
+                    maxlength="50"
+                    required
+                    >
+                </div>
+                <div class="box-input">
+                    <label for="purchase_date"
+                    >Data de lançamento <span class="required-field">*</span></label
+                    >
+                    <input 
+                    type="date" 
+                    name="purchase_date" 
+                    id="purchase_date" 
+                    class="block" 
+                    required
+                    >
+                </div>
+                <!-- box input --> 
+                <div class="box-input">
+                    <p>Estilo: <span class="required-field">*</span></p>
+                    <div class="div-options">
+                        <!-- Elemento 1 -->
+                        <input type="radio" id="dnb" name="estilo">
+                        <label for="dnb">Drum and bass</label>
+                        <!-- Elemento 2 -->
+                        <input type="radio" id="nondnb" name="estilo">
+                        <label for="nondnb">Non Drum and bass music</label>
+                    </div>
+                </div>
+                <!-- Optional box -->
+                <div class="optional-box">
+                    <h1>Drum and bass styles</h1>
+                    <p>	Selecione:</p>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" 
+                            id="Liquid funk" 
+                            name="optional[]" 
+                            value="Liquid funk">
+                            <label for="Liquid funk">Liquid funk</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Breakcore" 
+                            name="optional[]" 
+                            value="Breakcore">
+                            <label for="Breakcore">Breakcore</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Jungle" 
+                            name="optional[]" 
+                            value="Jungle">
+                            <label for="Jungle">Jungle</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Neuro Funk" 
+                            name="optional[]" 
+                            value="Neuro Funk">
+                            <label for="Neuro Funk">Neuro Funk</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" 
+                            id="sambass" 
+                            name="optional[]" 
+                            value="sambass">
+                            <label for="sambass">Sambass</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Raggacore" 
+                            name="optional[]" 
+                            value="Raggacore">
+                            <label for="Raggacore">Raggacore</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Intelligent" 
+                            name="optional[]" 
+                            value="Intelligent">
+                            <label for="Intelligent">Intelligent</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" 
+                            id="Drill 'n' bass" 
+                            name="optional[]" 
+                            value="Drill 'n' bass">
+                            <label for="Drill 'n' bass">Drill 'n' bass</label>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fim optional box -->
+                <div class="box-input">
+                    <p>Arquivo da música <span class="required-field"></span></p>
+                    <input type="file" multiple accept="audio/mp3,audio/mp4, audio/wav" id="imusic" name="music" required>
+                </div>
+                <input type="submit" value="Enviar" class="bnt-submit">
+             </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

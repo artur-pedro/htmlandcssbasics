@@ -1,0 +1,179 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #030117;
+}
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+p,
+label {
+    color: #444;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 400px;
+}
+textarea {
+    padding: 10px 5px;
+}
+
+/* page reader */
+.header {
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../img/fundo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header h3 {
+    color: white;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+/* form container */
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    border: 2px solid #030117;
+}
+/* form header */
+.form-header {
+    color:  #030117;
+    width: 600px;
+    text-align:center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    border-bottom: 4px solid #030117;
+    padding-top: 40px;
+}
+.form-body {
+    padding: 30px;
+}
+.form-title {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.form-body p{
+    margin-bottom: 20px;
+}
+.required-field {
+    color: red;
+}
+.box-input {
+    margin-bottom: 35px;
+}
+.block {
+    display: block;
+}
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+
+}
+.optional-box h1 {
+    display: inline-block;
+    margin: 30px 0 30px;
+
+}
+.optional-list li {
+    list-style: none;
+}
+
+.box-input {
+    margin-bottom: 15px;
+
+}
+.div-options  label{
+    padding: 8px;
+
+}
+.bnt-submit {
+    background-color: #030117;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.bnt-submit:hover{
+    background-color: #fff;
+    border-color: #030117;
+    color: #030117;
+}
+textarea {
+    margin-top: 20px ;
+    margin-bottom: 40px ;
+    border: 0.5px solid black
+}
+.box-input label {
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #333; 
+    display: block; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.div-options  label{
+    display: inline;
+}
+input::placeholder {
+    padding: 15x;
+}
+.box-input input[type="text"],
+.box-input input[type="date"] {
+    width: 100%; 
+    padding: 15px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+.box-input input[type="text"]:focus,
+.box-input input[type="date"]:focus {
+    border-color: #030117; 
+    outline: none;
+    box-shadow: 0 0 8px #030117;
+}
+.box-input p {
+    margin-top: 40px;
+    color: black;
+    font-size: 18px;
+}
+textarea:focus {
+    box-shadow: 0 0 8px #030117;
+}
+.form-title {
+    font-size: 23px;
+    color:#030117;
+    font-weight: bold;
+}
+.form-header p {
+    font-size: 40px;
+    font-weight: bolder;
+    color:black;
+}
+
