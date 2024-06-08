@@ -87,12 +87,12 @@ textarea {
 .block {
     display: block;
 }
-.optional-box {
+#optional-box {
     display: inline-block;
     margin: 0 30px 30px 0;
 
 }
-.optional-box h1 {
+#optional-box h1 {
     display: inline-block;
     margin: 30px 0 30px;
 
@@ -176,4 +176,15 @@ textarea:focus {
     font-weight: bolder;
     color:black;
 }
-
+@keyframes fade-out {
+    from{opacity: 1;}
+    to {opacity: 0;}
+    
+}
+@keyframes fade-in {
+    from{opacity: 0;}
+    to {opacity: 1;} 
+}
+.optional-box {
+    display:none;
+}

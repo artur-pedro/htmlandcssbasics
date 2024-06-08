@@ -69,15 +69,15 @@
                     <p>Estilo: <span class="required-field">*</span></p>
                     <div class="div-options">
                         <!-- Elemento 1 -->
-                        <input type="radio" id="dnb" name="estilo">
+                        <input class="dnb-btton" type="radio" id="dnb" name="estilo" onclick="handleRadioClick(true)">
                         <label for="dnb">Drum and bass</label>
                         <!-- Elemento 2 -->
-                        <input type="radio" id="nondnb" name="estilo">
+                        <input class="nondnb-botton" type="radio" id="nondnb" name="estilo" onclick="handleRadioClick(false)">
                         <label for="nondnb">Non Drum and bass music</label>
                     </div>
                 </div>
                 <!-- Optional box -->
-                <div class="optional-box">
+                <div id="optional-box" class="optional-box">
                     <h1>Drum and bass styles</h1>
                     <p>	Selecione:</p>
                     <ul class="optional-list">
